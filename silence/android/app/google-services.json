@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1052118629579",
+    "project_id": "moonlit-shadow-402310",
+    "storage_bucket": "moonlit-shadow-402310.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1052118629579:android:c637b4bb61c9c7577e2f4e",
+        "android_client_info": {
+          "package_name": "com.silence"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAyC9TLsRWWJ04PoJIEQd_mCb1ze7ikwDA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

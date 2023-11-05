@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+
+    body {
+        border-color: aquamarine;
+    }
+
+    :root {
+        --color: rgb(0, 255, 38);
+        --defheight: 100px;
+        --mheight: 2px;
+    }
+
+
+    div {
+
+        background-color: var(--color);
+        height: var(--defheight);
+        margin: var(--mheight);
+
+
+    }
+
+    .nav ul {
+        margin: 0px;
+        padding: 0px;
+
+        list-style: none;
+        gap: 20px;
+
+
+    }
+
+    ul {
+        display: flex;
+        height: inherit;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    li::first-letter {
+        color: aliceblue;
+        font-size: 40px;
+    }
+   li:nth-child(2){
+    align-self: flex-start;
+   
+   }
+  
+
+    .nav {
+        height: 400px;
+    }
+    p{
+        background-color: ghostwhite;
+
+    }
+    p::first-line{
+    background-color: aqua;
+    }
+    ul li{
+      background-color: peru;
+      border: 2px solid whitesmoke;
+      padding: 10px;
+    }
+    li:first-child{
+        align-self: flex-end;
+        flex-shrink: calc(1);
+    }
+
+</style>
+
+<body>
+
+    <div class="nav">
+        <ul>
+            <li>Home</li>
+            <li> About</li>
+            <li>Contact</li>
+        </ul>
+    </div>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur alias architecto facere fugit! Natus,
+        recusandae quis laudantium modi nam obcaecati sequi dolor optio molestias quas libero, iste dolorum nihil
+        temporibus ratione distinctio ut repudiandae neque. Deserunt sapiente obcaecati magni incidunt nobis officia
+        libero, placeat non sequi eos! Atque labore ab quidem? Ea aut at autem facere nulla doloribus fugit reiciendis
+        esse reprehenderit libero quisquam nihil itaque similique labore atque consectetur ad illum, beatae adipisci
+        distinctio iure. Voluptatum accusantium eveniet unde dicta ipsum. Nobis, rem. Veniam numquam dolores ea
+        veritatis dolor a temporibus illum assumenda voluptates! Non, in! Quae, minima obcaecati.</p>
+</body>
+
+</html>
