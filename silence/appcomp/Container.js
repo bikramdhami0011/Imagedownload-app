@@ -1,7 +1,7 @@
 import { StyleSheet, View,Image,Text, TouchableOpacity, Alert } from 'react-native'
 import React from 'react'
 import RNFetchBlob from 'rn-fetch-blob'
-const Container = ( {image}) => {
+const Container = ( {image,name}) => {
 const ImageDownload=()=>{
    const {config,fs}=RNFetchBlob;
    config({
